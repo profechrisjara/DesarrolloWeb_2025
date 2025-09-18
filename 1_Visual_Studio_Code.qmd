@@ -1,0 +1,99 @@
+# Manual de Instalación de Visual Studio Code
+
+Este manual guía paso a paso sobre cómo instalar Visual Studio Code (VS Code), un editor de código fuente gratuito desarrollado por Microsoft, compatible con Windows, macOS y Linux.
+
+---
+
+## Requisitos previos
+
+- Conexión a internet estable.
+- Sistema operativo compatible:
+  - Windows 7 o superior (64 bits o 32 bits)
+  - macOS 10.11 o superior
+  - Distribuciones populares de Linux (Ubuntu, Debian, Fedora, Red Hat, etc.)
+
+---
+
+## Paso 1: Descargar Visual Studio Code
+
+1. Abrir el navegador web preferido.
+2. Ir al sitio oficial de Visual Studio Code:  
+   [https://code.visualstudio.com/](https://code.visualstudio.com/)
+3. En la página de inicio, el sitio reconoce automáticamente el sistema operativo. Dar clic en el botón **Download** para iniciar la descarga del instalador.
+
+---
+
+## Paso 2: Instalación en Windows
+
+1. Ejecutar el archivo `.exe` descargado (por ejemplo, `VSCodeUserSetup-x64-1.x.x.exe`).
+2. En la ventana del instalador, aceptar el acuerdo de licencia y hacer clic en **Next**.
+3. Elegir la carpeta de destino o dejar la predeterminada, luego clicar en **Next**.
+4. Seleccionar tareas adicionales:
+   - Crear acceso directo en el escritorio (opcional).
+   - Añadir "Abrir con Code" al menú contextual del explorador (recomendado para accesos rápidos).
+5. Clic en **Next** y después en **Install** para comenzar la instalación.
+6. Una vez finalizada, seleccionar **Launch Visual Studio Code** para abrir el editor y clic en **Finish**.
+
+---
+
+## Paso 3: Instalación en macOS
+
+1. Abrir el archivo `.zip` descargado, lo que descomprime Visual Studio Code.
+2. Mover la aplicación Visual Studio Code a la carpeta **Aplicaciones**.
+3. Abrir Visual Studio Code desde la carpeta Aplicaciones.
+4. Para poder abrir VS Code desde la terminal, ejecutar en VS Code la paleta de comandos (`Cmd + Shift + P`) y escribir `Shell Command: Install 'code' command in PATH`, luego seleccionarlo.
+
+---
+
+## Paso 4: Instalación en Linux
+
+### Para distribuciones basadas en Debian y Ubuntu:
+
+1. Abrir la terminal.
+2. Descargar el paquete `.deb`:
+wget -qO- https://update.code.visualstudio.com/latest/linux-deb-x64/stable | sudo dpkg -i -
+
+text
+3. O usar los comandos:
+sudo apt update
+sudo apt install software-properties-common apt-transport-https wget
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo apt update
+sudo apt install code
+
+text
+4. Ejecutar VS Code con el comando:
+code
+
+text
+
+### Para distribuciones basadas en Fedora, Red Hat y CentOS:
+
+1. Descargar e instalar el paquete `.rpm` desde la página oficial.
+2. Usar comandos para agregar repositorios con `dnf` o `yum`.
+3. Instalar Visual Studio Code con:
+sudo dnf install code
+
+text
+
+---
+
+## Paso 5: Verificación de instalación
+
+- Abrir Visual Studio Code.
+- Verificar que se abre la ventana principal del editor.
+- Comprobar la versión con el comando en terminal integrada:
+code --version
+
+text
+
+---
+
+## Recomendaciones finales
+
+- Instalar extensiones necesarias desde el Marketplace dentro de VS Code para potenciar el flujo de trabajo.
+- Configurar ajustes según preferencias de usuario.
+- Mantener actualizado el editor para recibir mejoras y correcciones.
+
+---

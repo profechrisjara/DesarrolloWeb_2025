@@ -1,0 +1,26 @@
+project:
+  type: book
+
+book:
+  title: "Desarrollo_Web"
+  author: "T.S. Christopher Jara"
+  date: "18/9/2025"
+  chapters:
+    - 1_Visual_Studio_Code.qmd
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+
+
