@@ -1,5 +1,16 @@
-# Preface {.unnumbered}
+# Prefacio {.unnumbered}
 
-This is a Quarto book.
+El presente libro tiene como objetivo fundamental ofrecer una ruta de aprendizaje completa y estructurada para la formación de los estudiantes de tercero de bachillerato, orientándolos hacia la certificación como desarrolladores frontend. Este manual está diseñado con el propósito de capacitar a los estudiantes de esta etapa académica en las competencias esenciales relacionadas con el desarrollo web, particularmente en tecnologías frontend.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+La motivación principal para la elaboración de este libro radica en la carencia de documentación gratuita y accesible que facilite a los jóvenes una formación integral en desarrollo web. Por ello, se ha concebido esta obra como una contribución educativa que busca formar a los futuros programadores del país, proveyéndoles las bases teóricas y prácticas necesarias para su desarrollo profesional.
+
+Este libro está dirigido específicamente a los estudiantes de tercero de bachillerato de la Unidad Educativa "Carlos Crespi II", con un enfoque pedagógico adaptado a sus necesidades y perfil académico. Se ha diseñado para aquellos lectores que no poseen conocimientos previos en desarrollo web, facilitando su aprendizaje desde los conceptos más elementales hasta técnicas y herramientas actuales.
+
+La estructura del contenido contempla sesiones de trabajo segmentadas en bloques de 45 minutos de aprendizaje guiado con acompañamiento docente, seguidos de 45 minutos de práctica supervisada y culminando con 90 minutos de aprendizaje autónomo. Este enfoque metodológico busca optimizar la asimilación de conocimientos y habilidades, garantizando un aprendizaje progresivo y efectivo al ser leído y ejecutado en secuencia.
+
+Confiamos en que esta obra será un recurso invaluable para la formación académica y técnica de los estudiantes, aportando al desarrollo de competencias que les permitan integrarse exitosamente en el ámbito profesional del desarrollo web frontend.
+
+---
+
+Christopher Jara  
+Autor  

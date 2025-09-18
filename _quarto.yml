@@ -4,10 +4,10 @@ project:
 book:
   title: "Desarrollo_Web"
   author: "T.S. Christopher Jara"
-  date: "18/9/2025"
+  date: "2025-18-09"
   chapters:
-    - 1_Visual_Studio_Code.qmd
     - index.qmd
+    - 1_Visual_Studio_Code.qmd 
     - intro.qmd
     - summary.qmd
     - references.qmd
@@ -21,6 +21,13 @@ format:
       - brand
   pdf:
     documentclass: scrreprt
+
+publish:
+  type: gitHub
+  method: branch
+  repository: https://github.com/profechrisjara/DesarrolloWeb_2025.git
+  branch: gh-pages
+  pre-render: true
 
 
 
