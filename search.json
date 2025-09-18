@@ -1,0 +1,122 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Desarrollo_Web",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "1_Visual_Studio_Code.html",
+    "href": "1_Visual_Studio_Code.html",
+    "title": "1  Manual de Instalación de Visual Studio Code",
+    "section": "",
+    "text": "1.1 Requisitos previos\nEste manual guía paso a paso sobre cómo instalar Visual Studio Code (VS Code), un editor de código fuente gratuito desarrollado por Microsoft, compatible con Windows, macOS y Linux.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual de Instalación de Visual Studio Code</span>"
+    ]
+  },
+  {
+    "objectID": "1_Visual_Studio_Code.html#requisitos-previos",
+    "href": "1_Visual_Studio_Code.html#requisitos-previos",
+    "title": "1  Manual de Instalación de Visual Studio Code",
+    "section": "",
+    "text": "Conexión a internet estable.\nSistema operativo compatible:\n\nWindows 7 o superior (64 bits o 32 bits)\nmacOS 10.11 o superior\nDistribuciones populares de Linux (Ubuntu, Debian, Fedora, Red Hat, etc.)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual de Instalación de Visual Studio Code</span>"
+    ]
+  },
+  {
+    "objectID": "1_Visual_Studio_Code.html#paso-1-descargar-visual-studio-code",
+    "href": "1_Visual_Studio_Code.html#paso-1-descargar-visual-studio-code",
+    "title": "1  Manual de Instalación de Visual Studio Code",
+    "section": "1.2 Paso 1: Descargar Visual Studio Code",
+    "text": "1.2 Paso 1: Descargar Visual Studio Code\n\nAbrir el navegador web preferido.\nIr al sitio oficial de Visual Studio Code:\nhttps://code.visualstudio.com/\nEn la página de inicio, el sitio reconoce automáticamente el sistema operativo. Dar clic en el botón Download para iniciar la descarga del instalador.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual de Instalación de Visual Studio Code</span>"
+    ]
+  },
+  {
+    "objectID": "1_Visual_Studio_Code.html#paso-2-instalación-en-windows",
+    "href": "1_Visual_Studio_Code.html#paso-2-instalación-en-windows",
+    "title": "1  Manual de Instalación de Visual Studio Code",
+    "section": "1.3 Paso 2: Instalación en Windows",
+    "text": "1.3 Paso 2: Instalación en Windows\n\nEjecutar el archivo .exe descargado (por ejemplo, VSCodeUserSetup-x64-1.x.x.exe).\nEn la ventana del instalador, aceptar el acuerdo de licencia y hacer clic en Next.\nElegir la carpeta de destino o dejar la predeterminada, luego clicar en Next.\nSeleccionar tareas adicionales:\n\nCrear acceso directo en el escritorio (opcional).\nAñadir “Abrir con Code” al menú contextual del explorador (recomendado para accesos rápidos).\n\nClic en Next y después en Install para comenzar la instalación.\nUna vez finalizada, seleccionar Launch Visual Studio Code para abrir el editor y clic en Finish.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual de Instalación de Visual Studio Code</span>"
+    ]
+  },
+  {
+    "objectID": "1_Visual_Studio_Code.html#paso-3-instalación-en-macos",
+    "href": "1_Visual_Studio_Code.html#paso-3-instalación-en-macos",
+    "title": "1  Manual de Instalación de Visual Studio Code",
+    "section": "1.4 Paso 3: Instalación en macOS",
+    "text": "1.4 Paso 3: Instalación en macOS\n\nAbrir el archivo .zip descargado, lo que descomprime Visual Studio Code.\nMover la aplicación Visual Studio Code a la carpeta Aplicaciones.\nAbrir Visual Studio Code desde la carpeta Aplicaciones.\nPara poder abrir VS Code desde la terminal, ejecutar en VS Code la paleta de comandos (Cmd + Shift + P) y escribir Shell Command: Install 'code' command in PATH, luego seleccionarlo.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual de Instalación de Visual Studio Code</span>"
+    ]
+  },
+  {
+    "objectID": "1_Visual_Studio_Code.html#paso-4-instalación-en-linux",
+    "href": "1_Visual_Studio_Code.html#paso-4-instalación-en-linux",
+    "title": "1  Manual de Instalación de Visual Studio Code",
+    "section": "1.5 Paso 4: Instalación en Linux",
+    "text": "1.5 Paso 4: Instalación en Linux\n\n1.5.1 Para distribuciones basadas en Debian y Ubuntu:\n\nAbrir la terminal.\nDescargar el paquete .deb: wget -qO- https://update.code.visualstudio.com/latest/linux-deb-x64/stable | sudo dpkg -i -\n\ntext 3. O usar los comandos: sudo apt update sudo apt install software-properties-common apt-transport-https wget wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add - sudo add-apt-repository “deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main” sudo apt update sudo apt install code\ntext 4. Ejecutar VS Code con el comando: code\ntext\n\n\n1.5.2 Para distribuciones basadas en Fedora, Red Hat y CentOS:\n\nDescargar e instalar el paquete .rpm desde la página oficial.\nUsar comandos para agregar repositorios con dnf o yum.\nInstalar Visual Studio Code con: sudo dnf install code\n\ntext",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual de Instalación de Visual Studio Code</span>"
+    ]
+  },
+  {
+    "objectID": "1_Visual_Studio_Code.html#paso-5-verificación-de-instalación",
+    "href": "1_Visual_Studio_Code.html#paso-5-verificación-de-instalación",
+    "title": "1  Manual de Instalación de Visual Studio Code",
+    "section": "1.6 Paso 5: Verificación de instalación",
+    "text": "1.6 Paso 5: Verificación de instalación\n\nAbrir Visual Studio Code.\nVerificar que se abre la ventana principal del editor.\nComprobar la versión con el comando en terminal integrada: code –version\n\ntext",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual de Instalación de Visual Studio Code</span>"
+    ]
+  },
+  {
+    "objectID": "1_Visual_Studio_Code.html#recomendaciones-finales",
+    "href": "1_Visual_Studio_Code.html#recomendaciones-finales",
+    "title": "1  Manual de Instalación de Visual Studio Code",
+    "section": "1.7 Recomendaciones finales",
+    "text": "1.7 Recomendaciones finales\n\nInstalar extensiones necesarias desde el Marketplace dentro de VS Code para potenciar el flujo de trabajo.\nConfigurar ajustes según preferencias de usuario.\nMantener actualizado el editor para recibir mejoras y correcciones.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual de Instalación de Visual Studio Code</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "2  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "3  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
