@@ -78,20 +78,17 @@ Visual Studio Code es uno de los editores más usados por desarrolladores en tod
 sudo apt update
 sudo apt install code
 
-text
 Si instalas desde el paquete descargado:
 sudo dpkg -i nombre_paquete.deb
 
-text
 Reemplaza `nombre_paquete.deb` con el archivo descargado.
 
 #### Fedora / Red Hat / CentOS
 
 1. Descarga e instala el paquete `.rpm` desde la web oficial.
 2. Instala ejecutando:
-sudo dnf install code
 
-text
+sudo dnf install code
 
 ---
 
@@ -100,14 +97,7 @@ text
 - Abre Visual Studio Code.
 - Comprueba que la ventana principal aparece correctamente.
 - Verifica la versión ejecutando en la terminal integrada:
+
 code --version
 
-text
-
 ---
-
-## Referencias
-
-1. Arsys. “¿Qué es Visual Studio Code y cuáles son sus ventajas?”, 2024[web:29].
-2. Wikipedia. "Visual Studio Code - Wikipedia, la enciclopedia libre", 2018[web:34].
-3. ebiseducation.com. “Visual Studio Code: Qué es, Cómo funciona y Ventajas”, 2024[web:35].
