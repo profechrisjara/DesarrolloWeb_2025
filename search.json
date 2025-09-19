@@ -20,13 +20,93 @@
     ]
   },
   {
+    "objectID": "2_Visual_Studio_Code.html",
+    "href": "2_Visual_Studio_Code.html",
+    "title": "2  Manual Detallado de Instalación y Uso de Visual Studio Code",
+    "section": "",
+    "text": "2.1 ¿Qué es Visual Studio Code?\nVisual Studio Code (VS Code) es un editor de código fuente gratuito desarrollado por Microsoft, disponible para Windows, macOS y Linux. Se caracteriza por ser liviano, multiplataforma y altamente extensible. VS Code combina funciones avanzadas de un entorno de desarrollo integrado (IDE) con la sencillez de un editor de texto moderno, permitiendo trabajar con múltiples lenguajes de programación y tecnologías en un entorno centralizado[web:29][web:33][web:34].",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Manual Detallado de Instalación y Uso de Visual Studio Code</span>"
+    ]
+  },
+  {
+    "objectID": "2_Visual_Studio_Code.html#para-qué-sirve-visual-studio-code",
+    "href": "2_Visual_Studio_Code.html#para-qué-sirve-visual-studio-code",
+    "title": "2  Manual Detallado de Instalación y Uso de Visual Studio Code",
+    "section": "2.2 ¿Para qué sirve Visual Studio Code?",
+    "text": "2.2 ¿Para qué sirve Visual Studio Code?\nVS Code se utiliza principalmente para:\n\nEscribir código fuente: Proporciona herramientas como resaltado de sintaxis, autocompletado inteligente y depuración.\nGestionar proyectos de software: Ofrece integración con Git y otros sistemas de control de versiones.\nExtender funcionalidades: Permite instalar extensiones para soportar frameworks, nuevos lenguajes, temas visuales y herramientas especializadas.\nEjecutar comandos: Cuenta con terminal integrada y paneles interactivos para configurar y automatizar tareas del proyecto[web:30][web:31][web:35].",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Manual Detallado de Instalación y Uso de Visual Studio Code</span>"
+    ]
+  },
+  {
+    "objectID": "2_Visual_Studio_Code.html#importancia-de-vs-code-en-la-programación-actual",
+    "href": "2_Visual_Studio_Code.html#importancia-de-vs-code-en-la-programación-actual",
+    "title": "2  Manual Detallado de Instalación y Uso de Visual Studio Code",
+    "section": "2.3 Importancia de VS Code en la programación actual",
+    "text": "2.3 Importancia de VS Code en la programación actual\nVisual Studio Code es uno de los editores más usados por desarrolladores en todo el mundo debido a su combinación de eficiencia, flexibilidad y una comunidad activa. Sus ventajas incluyen:\n\nMultiplataforma: Se ejecuta en sistemas operativos populares, permitiendo equipos diversos trabajar con la misma herramienta.\nExtensibilidad: Dispone de miles de extensiones y plugins desarrollados por la comunidad y por empresas líderes.\nProductividad: Optimiza la escritura y gestión del código, reduce errores y facilita el trabajo colaborativo.\nAdopción profesional y académica: Es un estándar en la industria, utilizado tanto por grandes compañías como por instituciones educativas para enseñar programación y desarrollo de software[web:29][web:34][web:35].",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Manual Detallado de Instalación y Uso de Visual Studio Code</span>"
+    ]
+  },
+  {
+    "objectID": "2_Visual_Studio_Code.html#manual-de-instalación-de-visual-studio-code",
+    "href": "2_Visual_Studio_Code.html#manual-de-instalación-de-visual-studio-code",
+    "title": "2  Manual Detallado de Instalación y Uso de Visual Studio Code",
+    "section": "2.4 Manual de Instalación de Visual Studio Code",
+    "text": "2.4 Manual de Instalación de Visual Studio Code\n\n2.4.1 1. Requisitos previos\n\nConexión a internet\nSistema operativo compatible: Windows 7 o superior, macOS 10.11 o superior, o distribuciones comunes de Linux\n\n\n\n\n2.4.2 2. Descargar Visual Studio Code\n\nAbre tu navegador de preferencia.\nAccede a la página oficial: https://code.visualstudio.com/\nHaz clic en “Download” y selecciona el instalador compatible para tu sistema operativo (Windows, macOS, o Linux).\n\n\n\n\n2.4.3 3. Instalación en Windows\n\nEjecuta el archivo descargado (VSCodeUserSetup-x64-*.exe).\nAcepta los términos y condiciones.\nSelecciona la carpeta de destino (puedes dejar la predeterminada).\nActiva opciones recomendadas como “Agregar al menú contextual” (para abrir carpetas directamente desde el explorador).\nHaz clic en “Instalar” y espera a que finalice.\nEjecuta VS Code seleccionando “Finalizar” y marcando “Abrir Visual Studio Code”.\n\n\n\n\n2.4.4 4. Instalación en macOS\n\nDescomprime el archivo .zip descargado.\nMueve el icono de Visual Studio Code a la carpeta de “Aplicaciones”.\nAbre la aplicación desde “Launchpad” o “Aplicaciones”.\n(Opcional) Abre la paleta de comandos (Cmd + Shift + P) y escribe:\nShell Command: Install 'code' command in PATH\npara poder ejecutar VS Code desde la Terminal con el comando code.\n\n\n\n\n2.4.5 5. Instalación en Linux\n\n2.4.5.1 Ubuntu / Debian\n\nDescarga e instala el paquete .deb desde la web oficial.\nAlternativamente, desde Terminal: sudo apt update sudo apt install code\n\nSi instalas desde el paquete descargado: sudo dpkg -i nombre_paquete.deb\nReemplaza nombre_paquete.deb con el archivo descargado.\n\n\n2.4.5.2 Fedora / Red Hat / CentOS\n\nDescarga e instala el paquete .rpm desde la web oficial.\nInstala ejecutando:\n\nsudo dnf install code\n\n\n\n\n2.4.6 6. Verificación de instalación\n\nAbre Visual Studio Code.\nComprueba que la ventana principal aparece correctamente.\nVerifica la versión ejecutando en la terminal integrada:\n\ncode –version",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Manual Detallado de Instalación y Uso de Visual Studio Code</span>"
+    ]
+  },
+  {
+    "objectID": "2_Visual_Studio_Code.html#cómo-configurar-visual-studio-code-para-desarrolladores-frontend",
+    "href": "2_Visual_Studio_Code.html#cómo-configurar-visual-studio-code-para-desarrolladores-frontend",
+    "title": "2  Manual Detallado de Instalación y Uso de Visual Studio Code",
+    "section": "2.5 ¿Cómo configurar Visual Studio Code para Desarrolladores Frontend?",
+    "text": "2.5 ¿Cómo configurar Visual Studio Code para Desarrolladores Frontend?\nVisual Studio Code (VS Code) es un editor de código muy popular entre desarrolladores frontend por su ligereza, flexibilidad y capacidad de personalización mediante extensiones. Configurar correctamente VS Code aumenta la productividad y mejora la experiencia de codificación.\nA partir de este punto le voy a guiar sobre la configuración básica y recomendaciones de extensiones esenciales para desarrolladores frontend.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Manual Detallado de Instalación y Uso de Visual Studio Code</span>"
+    ]
+  },
+  {
+    "objectID": "2_Visual_Studio_Code.html#configuración-inicial-de-visual-studio-code",
+    "href": "2_Visual_Studio_Code.html#configuración-inicial-de-visual-studio-code",
+    "title": "2  Manual Detallado de Instalación y Uso de Visual Studio Code",
+    "section": "2.6 Configuración inicial de Visual Studio Code",
+    "text": "2.6 Configuración inicial de Visual Studio Code\n\nInstalación de VS Code\nDescarga e instala Visual Studio Code desde su sitio oficial: https://code.visualstudio.com/\nAbrir VS Code y acceder a extensiones\n\nEn la barra lateral izquierda, selecciona el icono de extensiones (📦) o presiona Ctrl+Shift+X.\nUtiliza la barra de búsqueda para encontrar extensiones.\n\nTemas y personalización\n\nCambia el tema desde Archivo &gt; Preferencias &gt; Tema de Color o con Ctrl+K Ctrl+T.\nSe recomienda elegir temas legibles y que reduzcan la fatiga visual para largas sesiones.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Manual Detallado de Instalación y Uso de Visual Studio Code</span>"
+    ]
+  },
+  {
+    "objectID": "2_Visual_Studio_Code.html#extensiones-recomendadas-para-desarrolladores-frontend",
+    "href": "2_Visual_Studio_Code.html#extensiones-recomendadas-para-desarrolladores-frontend",
+    "title": "2  Manual Detallado de Instalación y Uso de Visual Studio Code",
+    "section": "2.7 Extensiones recomendadas para desarrolladores frontend",
+    "text": "2.7 Extensiones recomendadas para desarrolladores frontend\n\n2.7.1 1. Color Highlight\n\nDescripción: Resalta los colores definidos en código CSS, SCSS, Less, y archivos relacionados, mostrando el color de manera visual junto al valor hexadecimal o RGB.\nUso: Facilita la identificación y selección de colores en hojas de estilos y archivos de diseño.\nInstalación: Buscar Color Highlight en la tienda de extensiones e instalar.\n\n\n\n2.7.2 2. GitLens — Git supercharged\n\nDescripción: Amplía las capacidades de Git integradas en VS Code, mostrando quién cambió qué línea y cuándo, historial de archivos, comparaciones de ramas, y más.\nUso: Perfecto para seguimiento, revisión de código y trabajo colaborativo en proyectos con control de versiones.\nInstalación: Buscar GitLens e instalar.\n\n\n\n2.7.3 3. indent-rainbow\n\nDescripción: Colorea las sangrías (indentaciones) en el código, usando diferentes colores para cada nivel.\nUso: Ayuda a visualizar indentaciones complejas y a mejorar la legibilidad del código anidado (especialmente en HTML, CSS, JavaScript).\nInstalación: Buscar indent-rainbow.\n\n\n\n2.7.4 4. Live Preview\n\nDescripción: Permite visualizar en tiempo real el resultado de los archivos HTML directamente en VS Code.\nUso: Muy útil para verificar rápidamente los cambios sin necesidad de cambiar de aplicación o navegador.\nInstalación: Buscar Live Preview.\n\n\n\n2.7.5 5. Live Server\n\nDescripción: Lanza un servidor local que refresca automáticamente el navegador al guardar archivos.\nUso: Ideal para desarrollo rápido y pruebas en proyectos web locales, con recarga instantánea.\nInstalación: Buscar Live Server.\n\n\n\n2.7.6 6. Material Icon Theme\n\nDescripción: Cambia los iconos predeterminados con un conjunto moderno y visualmente agradable inspirado en Material Design.\nUso: Facilita la identificación rápida de tipos de archivos y carpetas en el explorador de VS Code.\nInstalación: Buscar Material Icon Theme.\n\n\n\n2.7.7 7. Monokai Dark Vibrant\n\nDescripción: Tema de color para VS Code basado en Monokai, con colores vibrantes y alto contraste para reducir fatiga visual.\nUso: Recomendado para sesiones largas de programación, especialmente en ambientes con poca luz.\nInstalación: Buscar Monokai Dark Vibrant.\n\n\n\n2.7.8 8. Prettier - Code formatter\n\nDescripción: Formateador automático de código que aplica estilos consistentes siguiendo reglas definidas o personalizadas.\nUso: Facilita mantener un código limpio y uniforme en proyectos colaborativos.\nInstalación: Buscar Prettier - Code formatter.\nConfiguración: Se recomienda habilitar el formato automático al guardar.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Manual Detallado de Instalación y Uso de Visual Studio Code</span>"
+    ]
+  },
+  {
+    "objectID": "2_Visual_Studio_Code.html#configuración-adicional-recomendada",
+    "href": "2_Visual_Studio_Code.html#configuración-adicional-recomendada",
+    "title": "2  Manual Detallado de Instalación y Uso de Visual Studio Code",
+    "section": "2.8 Configuración adicional recomendada",
+    "text": "2.8 Configuración adicional recomendada\n\nConfigura el linting y validación en JavaScript/TypeScript para detectar errores temprano (por ejemplo con ESLint).\nAtajos de teclado personalizados para acelerar tareas frecuentes.\nSincronización de configuraciones para mantener la misma configuración en diferentes dispositivos (usando cuenta Microsoft o GitHub).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Manual Detallado de Instalación y Uso de Visual Studio Code</span>"
+    ]
+  },
+  {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "2  Summary",
+    "title": "3  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
     ]
   }
 ]
