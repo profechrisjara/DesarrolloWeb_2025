@@ -1,35 +1,4 @@
-# Manual Detallado de Instalación y Uso de Visual Studio Code
-
----
-
-## ¿Qué es Visual Studio Code?
-
-Visual Studio Code (VS Code) es un editor de código fuente gratuito desarrollado por Microsoft, disponible para Windows, macOS y Linux. Se caracteriza por ser liviano, multiplataforma y altamente extensible. VS Code combina funciones avanzadas de un entorno de desarrollo integrado (IDE) con la sencillez de un editor de texto moderno, permitiendo trabajar con múltiples lenguajes de programación y tecnologías en un entorno centralizado[web:29][web:33][web:34].
-
----
-
-## ¿Para qué sirve Visual Studio Code?
-
-VS Code se utiliza principalmente para:
-
-- **Escribir código fuente**: Proporciona herramientas como resaltado de sintaxis, autocompletado inteligente y depuración.
-- **Gestionar proyectos de software**: Ofrece integración con Git y otros sistemas de control de versiones.
-- **Extender funcionalidades**: Permite instalar extensiones para soportar frameworks, nuevos lenguajes, temas visuales y herramientas especializadas.
-- **Ejecutar comandos**: Cuenta con terminal integrada y paneles interactivos para configurar y automatizar tareas del proyecto[web:30][web:31][web:35].
-
----
-
-## Importancia de VS Code en la programación actual
-
-Visual Studio Code es uno de los editores más usados por desarrolladores en todo el mundo debido a su combinación de eficiencia, flexibilidad y una comunidad activa. Sus ventajas incluyen:
-
-- **Multiplataforma**: Se ejecuta en sistemas operativos populares, permitiendo equipos diversos trabajar con la misma herramienta.
-- **Extensibilidad**: Dispone de miles de extensiones y plugins desarrollados por la comunidad y por empresas líderes.
-- **Productividad**: Optimiza la escritura y gestión del código, reduce errores y facilita el trabajo colaborativo.
-- **Adopción profesional y académica**: Es un estándar en la industria, utilizado tanto por grandes compañías como por instituciones educativas para enseñar programación y desarrollo de software[web:29][web:34][web:35].
-
----
-
+# ¿Cómo instalar Visual Studio Code?
 ## Manual de Instalación de Visual Studio Code
 
 ### 1. Requisitos previos

@@ -8,7 +8,11 @@ book:
   chapters:
     - index.qmd
     - 1_intro.qmd
-    - 1_Visual_Studio_Code.qmd
+    - part: "El Uso de Visual Studio Code"
+      Chapters:
+        - 2_Visual_Studio_Code.qmd
+        - 3_Instalación de Visual estudio Code.qmd
+        - 4_Configuración_Visual_Studio_Code.qmd
     - summary.qmd
     - references.qmd
 
