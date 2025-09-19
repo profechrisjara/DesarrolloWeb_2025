@@ -5,14 +5,11 @@ book:
   title: "Desarrollo_Web"
   author: "T.S. Christopher Jara"
   date: "2025-18-09"
+  page-footer: "Desarrollo Web - profechrisjara"
   chapters:
     - index.qmd
     - 1_intro.qmd
-    - part: El Uso de Visual Studio Code.qmd
-      Chapters:
-        - 2_Visual_Studio_Code.qmd
-        - 3_Instalación de Visual estudio Code.qmd
-        - 4_Configuración_Visual_Studio_Code.qmd
+    - 2_Visual_Studio_Code.qmd
     - summary.qmd
     - references.qmd
 

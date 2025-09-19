@@ -30,3 +30,159 @@ Visual Studio Code es uno de los editores más usados por desarrolladores en tod
 
 ---
 
+## Manual de Instalación de Visual Studio Code
+
+### 1. Requisitos previos
+
+- Conexión a internet
+- Sistema operativo compatible: Windows 7 o superior, macOS 10.11 o superior, o distribuciones comunes de Linux
+
+---
+
+### 2. Descargar Visual Studio Code
+
+1. Abre tu navegador de preferencia.
+2. Accede a la página oficial: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+3. Haz clic en “Download” y selecciona el instalador compatible para tu sistema operativo (Windows, macOS, o Linux).
+
+---
+
+### 3. Instalación en Windows
+
+1. Ejecuta el archivo descargado (`VSCodeUserSetup-x64-*.exe`).
+2. Acepta los términos y condiciones.
+3. Selecciona la carpeta de destino (puedes dejar la predeterminada).
+4. Activa opciones recomendadas como “Agregar al menú contextual” (para abrir carpetas directamente desde el explorador).
+5. Haz clic en "Instalar" y espera a que finalice.
+6. Ejecuta VS Code seleccionando “Finalizar” y marcando “Abrir Visual Studio Code”.
+
+---
+
+### 4. Instalación en macOS
+
+1. Descomprime el archivo `.zip` descargado.
+2. Mueve el icono de Visual Studio Code a la carpeta de "Aplicaciones".
+3. Abre la aplicación desde "Launchpad" o "Aplicaciones".
+4. (Opcional) Abre la paleta de comandos (`Cmd + Shift + P`) y escribe:  
+   `Shell Command: Install 'code' command in PATH`  
+   para poder ejecutar VS Code desde la Terminal con el comando `code`.
+
+---
+
+### 5. Instalación en Linux
+
+#### Ubuntu / Debian
+
+1. Descarga e instala el paquete `.deb` desde la web oficial.
+2. Alternativamente, desde Terminal:
+sudo apt update
+sudo apt install code
+
+Si instalas desde el paquete descargado:
+sudo dpkg -i nombre_paquete.deb
+
+Reemplaza `nombre_paquete.deb` con el archivo descargado.
+
+#### Fedora / Red Hat / CentOS
+
+1. Descarga e instala el paquete `.rpm` desde la web oficial.
+2. Instala ejecutando:
+
+sudo dnf install code
+
+---
+
+### 6. Verificación de instalación
+
+- Abre Visual Studio Code.
+- Comprueba que la ventana principal aparece correctamente.
+- Verifica la versión ejecutando en la terminal integrada:
+
+code --version
+
+---
+
+## ¿Cómo configurar Visual Studio Code para Desarrolladores Frontend?
+
+Visual Studio Code (VS Code) es un editor de código muy popular entre desarrolladores frontend por su ligereza, flexibilidad y capacidad de personalización mediante extensiones. Configurar correctamente VS Code aumenta la productividad y mejora la experiencia de codificación.
+
+A partir de este punto le voy a guiar sobre la configuración básica y recomendaciones de extensiones esenciales para desarrolladores frontend.
+
+---
+
+## Configuración inicial de Visual Studio Code
+
+1. **Instalación de VS Code**  
+   Descarga e instala Visual Studio Code desde su sitio oficial: https://code.visualstudio.com/
+
+2. **Abrir VS Code y acceder a extensiones**  
+   - En la barra lateral izquierda, selecciona el icono de extensiones (📦) o presiona `Ctrl+Shift+X`.
+   - Utiliza la barra de búsqueda para encontrar extensiones.
+
+3. **Temas y personalización**  
+   - Cambia el tema desde `Archivo > Preferencias > Tema de Color` o con `Ctrl+K Ctrl+T`.
+   - Se recomienda elegir temas legibles y que reduzcan la fatiga visual para largas sesiones.
+
+---
+
+## Extensiones recomendadas para desarrolladores frontend
+
+### 1. Color Highlight
+
+- **Descripción:** Resalta los colores definidos en código CSS, SCSS, Less, y archivos relacionados, mostrando el color de manera visual junto al valor hexadecimal o RGB.
+- **Uso:** Facilita la identificación y selección de colores en hojas de estilos y archivos de diseño.
+- **Instalación:** Buscar `Color Highlight` en la tienda de extensiones e instalar.
+
+### 2. GitLens — Git supercharged
+
+- **Descripción:** Amplía las capacidades de Git integradas en VS Code, mostrando quién cambió qué línea y cuándo, historial de archivos, comparaciones de ramas, y más.
+- **Uso:** Perfecto para seguimiento, revisión de código y trabajo colaborativo en proyectos con control de versiones.
+- **Instalación:** Buscar `GitLens` e instalar.
+
+### 3. indent-rainbow
+
+- **Descripción:** Colorea las sangrías (indentaciones) en el código, usando diferentes colores para cada nivel.
+- **Uso:** Ayuda a visualizar indentaciones complejas y a mejorar la legibilidad del código anidado (especialmente en HTML, CSS, JavaScript).
+- **Instalación:** Buscar `indent-rainbow`.
+
+### 4. Live Preview
+
+- **Descripción:** Permite visualizar en tiempo real el resultado de los archivos HTML directamente en VS Code.
+- **Uso:** Muy útil para verificar rápidamente los cambios sin necesidad de cambiar de aplicación o navegador.
+- **Instalación:** Buscar `Live Preview`.
+
+### 5. Live Server
+
+- **Descripción:** Lanza un servidor local que refresca automáticamente el navegador al guardar archivos.
+- **Uso:** Ideal para desarrollo rápido y pruebas en proyectos web locales, con recarga instantánea.
+- **Instalación:** Buscar `Live Server`.
+
+### 6. Material Icon Theme
+
+- **Descripción:** Cambia los iconos predeterminados con un conjunto moderno y visualmente agradable inspirado en Material Design.
+- **Uso:** Facilita la identificación rápida de tipos de archivos y carpetas en el explorador de VS Code.
+- **Instalación:** Buscar `Material Icon Theme`.
+
+### 7. Monokai Dark Vibrant
+
+- **Descripción:** Tema de color para VS Code basado en Monokai, con colores vibrantes y alto contraste para reducir fatiga visual.
+- **Uso:** Recomendado para sesiones largas de programación, especialmente en ambientes con poca luz.
+- **Instalación:** Buscar `Monokai Dark Vibrant`.
+
+### 8. Prettier - Code formatter
+
+- **Descripción:** Formateador automático de código que aplica estilos consistentes siguiendo reglas definidas o personalizadas.
+- **Uso:** Facilita mantener un código limpio y uniforme en proyectos colaborativos.
+- **Instalación:** Buscar `Prettier - Code formatter`.
+
+- **Configuración:** Se recomienda habilitar el formato automático al guardar.
+
+---
+
+## Configuración adicional recomendada
+
+- **Configura el linting y validación en JavaScript/TypeScript** para detectar errores temprano (por ejemplo con ESLint).
+- **Atajos de teclado personalizados** para acelerar tareas frecuentes.
+- **Sincronización de configuraciones** para mantener la misma configuración en diferentes dispositivos (usando cuenta Microsoft o GitHub).
+
+---
