@@ -1,140 +1,113 @@
-# Manual de Instalación de Visual Studio Code
-
-Este manual guía paso a paso sobre cómo instalar Visual Studio Code (VS Code), un editor de código fuente gratuito desarrollado por Microsoft, compatible con Windows, macOS y Linux.
-
----
-
-## Introducción
-
-Visual Studio Code (comúnmente abreviado como VS Code) es un editor de código fuente gratuito, desarrollado por Microsoft, que se ejecuta en Windows, macOS y Linux. VS Code combina la simplicidad de un editor ligero con funcionalidades avanzadas típicas de un entorno de desarrollo integrado (IDE), convirtiéndolo en una herramienta muy popular entre desarrolladores y programadores en todo el mundo.
+# Manual Detallado de Instalación y Uso de Visual Studio Code
 
 ---
 
 ## ¿Qué es Visual Studio Code?
 
-Visual Studio Code es un editor de texto especializado en la edición, escritura y gestión de código fuente para programas y aplicaciones informáticas. A diferencia de un editor de texto común, VS Code cuenta con múltiples características que facilitan el desarrollo de software, tales como:
-
-- Resaltado de sintaxis para una amplia variedad de lenguajes de programación.
-- Autocompletado inteligente (IntelliSense) que sugiere automáticamente funciones, variables y estructuras de código.
-- Depuración integrada que permite ejecutar el código paso a paso para encontrar y corregir errores.
-- Control de versiones integrado con Git, facilitando la colaboración y gestión de proyectos en equipo.
-- Terminal integrada para ejecutar comandos directamente desde el editor.
-- Extensiones y personalización para adaptar el editor a diferentes lenguajes, frameworks y herramientas de desarrollo.
+Visual Studio Code (VS Code) es un editor de código fuente gratuito desarrollado por Microsoft, disponible para Windows, macOS y Linux. Se caracteriza por ser liviano, multiplataforma y altamente extensible. VS Code combina funciones avanzadas de un entorno de desarrollo integrado (IDE) con la sencillez de un editor de texto moderno, permitiendo trabajar con múltiples lenguajes de programación y tecnologías en un entorno centralizado[web:29][web:33][web:34].
 
 ---
 
 ## ¿Para qué sirve Visual Studio Code?
 
-VS Code es una plataforma fundamental para los desarrolladores, ya que permite:
+VS Code se utiliza principalmente para:
 
-- Escribir y editar código de manera eficiente y organizada.
-- Navegar fácilmente en proyectos complejos gracias a su explorador de archivos y funciones de búsqueda avanzadas.
-- Probar y depurar aplicaciones directamente desde el editor.
-- Integrar herramientas de control de versiones para mantener un historial y colaborar en proyectos.
-- Personalizar el entorno de desarrollo mediante miles de extensiones disponibles en su Marketplace, que permiten agregar soporte para nuevos lenguajes, herramientas de análisis, temáticas visuales, entre otros.
-
----
-
-## Importancia de Visual Studio Code para desarrolladores y programadores
-
-La popularidad de Visual Studio Code se debe a su combinación de ligereza, flexibilidad y potencia. Sus características lo convierten en una herramienta fundamental en el mundo del desarrollo por las siguientes razones:
-
-- **Multiplataforma:** Funciona igual en diferentes sistemas operativos, permitiendo a desarrolladores usar la misma herramienta sin importar la plataforma.
-- **Personalización:** Se puede ajustar a cualquier flujo de trabajo mediante extensiones, desde desarrollo web hasta ciencia de datos o programación en múltiples lenguajes.
-- **Productividad:** Dispone de funciones que aceleran la escritura de código y reducen errores, como el autocompletado inteligente y la depuración integrada.
-- **Colaboración:** La integración nativa con Git y otros sistemas de control de versiones facilita el trabajo en equipo y el seguimiento de cambios.
-- **Comunidad activa:** Cuenta con una gran comunidad que desarrolla constantemente extensiones, comparte recursos y apoya a usuarios nuevos y avanzados.
+- **Escribir código fuente**: Proporciona herramientas como resaltado de sintaxis, autocompletado inteligente y depuración.
+- **Gestionar proyectos de software**: Ofrece integración con Git y otros sistemas de control de versiones.
+- **Extender funcionalidades**: Permite instalar extensiones para soportar frameworks, nuevos lenguajes, temas visuales y herramientas especializadas.
+- **Ejecutar comandos**: Cuenta con terminal integrada y paneles interactivos para configurar y automatizar tareas del proyecto[web:30][web:31][web:35].
 
 ---
 
-## Requisitos previos
+## Importancia de VS Code en la programación actual
 
-- Conexión a internet estable.
-- Sistema operativo compatible:
-  - Windows 7 o superior (64 bits o 32 bits)
-  - macOS 10.11 o superior
-  - Distribuciones populares de Linux (Ubuntu, Debian, Fedora, Red Hat, etc.)
+Visual Studio Code es uno de los editores más usados por desarrolladores en todo el mundo debido a su combinación de eficiencia, flexibilidad y una comunidad activa. Sus ventajas incluyen:
 
----
-
-## Paso 1: Descargar Visual Studio Code
-
-1. Abrir el navegador web preferido.
-2. Ir al sitio oficial de Visual Studio Code:  
-   [https://code.visualstudio.com/](https://code.visualstudio.com/)
-3. En la página de inicio, el sitio reconoce automáticamente el sistema operativo. Dar clic en el botón **Download** para iniciar la descarga del instalador.
+- **Multiplataforma**: Se ejecuta en sistemas operativos populares, permitiendo equipos diversos trabajar con la misma herramienta.
+- **Extensibilidad**: Dispone de miles de extensiones y plugins desarrollados por la comunidad y por empresas líderes.
+- **Productividad**: Optimiza la escritura y gestión del código, reduce errores y facilita el trabajo colaborativo.
+- **Adopción profesional y académica**: Es un estándar en la industria, utilizado tanto por grandes compañías como por instituciones educativas para enseñar programación y desarrollo de software[web:29][web:34][web:35].
 
 ---
 
-## Paso 2: Instalación en Windows
+## Manual de Instalación de Visual Studio Code
 
-1. Ejecutar el archivo `.exe` descargado (por ejemplo, `VSCodeUserSetup-x64-1.x.x.exe`).
-2. En la ventana del instalador, aceptar el acuerdo de licencia y hacer clic en **Next**.
-3. Elegir la carpeta de destino o dejar la predeterminada, luego clicar en **Next**.
-4. Seleccionar tareas adicionales:
-   - Crear acceso directo en el escritorio (opcional).
-   - Añadir "Abrir con Code" al menú contextual del explorador (recomendado para accesos rápidos).
-5. Clic en **Next** y después en **Install** para comenzar la instalación.
-6. Una vez finalizada, seleccionar **Launch Visual Studio Code** para abrir el editor y clic en **Finish**.
+### 1. Requisitos previos
+
+- Conexión a internet
+- Sistema operativo compatible: Windows 7 o superior, macOS 10.11 o superior, o distribuciones comunes de Linux
 
 ---
 
-## Paso 3: Instalación en macOS
+### 2. Descargar Visual Studio Code
 
-1. Abrir el archivo `.zip` descargado, lo que descomprime Visual Studio Code.
-2. Mover la aplicación Visual Studio Code a la carpeta **Aplicaciones**.
-3. Abrir Visual Studio Code desde la carpeta Aplicaciones.
-4. Para poder abrir VS Code desde la terminal, ejecutar en VS Code la paleta de comandos (`Cmd + Shift + P`) y escribir `Shell Command: Install 'code' command in PATH`, luego seleccionarlo.
+1. Abre tu navegador de preferencia.
+2. Accede a la página oficial: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+3. Haz clic en “Download” y selecciona el instalador compatible para tu sistema operativo (Windows, macOS, o Linux).
 
 ---
 
-## Paso 4: Instalación en Linux
+### 3. Instalación en Windows
 
-### Para distribuciones basadas en Debian y Ubuntu:
+1. Ejecuta el archivo descargado (`VSCodeUserSetup-x64-*.exe`).
+2. Acepta los términos y condiciones.
+3. Selecciona la carpeta de destino (puedes dejar la predeterminada).
+4. Activa opciones recomendadas como “Agregar al menú contextual” (para abrir carpetas directamente desde el explorador).
+5. Haz clic en "Instalar" y espera a que finalice.
+6. Ejecuta VS Code seleccionando “Finalizar” y marcando “Abrir Visual Studio Code”.
 
-1. Abrir la terminal.
-2. Descargar el paquete `.deb`:
-wget -qO- https://update.code.visualstudio.com/latest/linux-deb-x64/stable | sudo dpkg -i -
+---
 
-text
-3. O usar los comandos:
-sudo apt update
-sudo apt install software-properties-common apt-transport-https wget
-wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+### 4. Instalación en macOS
+
+1. Descomprime el archivo `.zip` descargado.
+2. Mueve el icono de Visual Studio Code a la carpeta de "Aplicaciones".
+3. Abre la aplicación desde "Launchpad" o "Aplicaciones".
+4. (Opcional) Abre la paleta de comandos (`Cmd + Shift + P`) y escribe:  
+   `Shell Command: Install 'code' command in PATH`  
+   para poder ejecutar VS Code desde la Terminal con el comando `code`.
+
+---
+
+### 5. Instalación en Linux
+
+#### Ubuntu / Debian
+
+1. Descarga e instala el paquete `.deb` desde la web oficial.
+2. Alternativamente, desde Terminal:
 sudo apt update
 sudo apt install code
 
 text
-4. Ejecutar VS Code con el comando:
-code
+Si instalas desde el paquete descargado:
+sudo dpkg -i nombre_paquete.deb
 
 text
+Reemplaza `nombre_paquete.deb` con el archivo descargado.
 
-### Para distribuciones basadas en Fedora, Red Hat y CentOS:
+#### Fedora / Red Hat / CentOS
 
-1. Descargar e instalar el paquete `.rpm` desde la página oficial.
-2. Usar comandos para agregar repositorios con `dnf` o `yum`.
-3. Instalar Visual Studio Code con:
+1. Descarga e instala el paquete `.rpm` desde la web oficial.
+2. Instala ejecutando:
 sudo dnf install code
 
 text
 
 ---
 
-## Paso 5: Verificación de instalación
+### 6. Verificación de instalación
 
-- Abrir Visual Studio Code.
-- Verificar que se abre la ventana principal del editor.
-- Comprobar la versión con el comando en terminal integrada:
+- Abre Visual Studio Code.
+- Comprueba que la ventana principal aparece correctamente.
+- Verifica la versión ejecutando en la terminal integrada:
 code --version
 
 text
 
 ---
 
-## Recomendaciones finales
+## Referencias
 
-- Instalar extensiones necesarias desde el Marketplace dentro de VS Code para potenciar el flujo de trabajo.
-- Configurar ajustes según preferencias de usuario.
-- Mantener actualizado el editor para recibir mejoras y correcciones.
+1. Arsys. “¿Qué es Visual Studio Code y cuáles son sus ventajas?”, 2024[web:29].
+2. Wikipedia. "Visual Studio Code - Wikipedia, la enciclopedia libre", 2018[web:34].
+3. ebiseducation.com. “Visual Studio Code: Qué es, Cómo funciona y Ventajas”, 2024[web:35].
