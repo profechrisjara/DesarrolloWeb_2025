@@ -10,123 +10,63 @@
     ]
   },
   {
-    "objectID": "1_Visual_Studio_Code.html",
-    "href": "1_Visual_Studio_Code.html",
-    "title": "1  Manual de Instalación de Visual Studio Code",
+    "objectID": "1_intro.html",
+    "href": "1_intro.html",
+    "title": "1  Introducción",
     "section": "",
-    "text": "1.1 Introducción\nEste manual guía paso a paso sobre cómo instalar Visual Studio Code (VS Code), un editor de código fuente gratuito desarrollado por Microsoft, compatible con Windows, macOS y Linux.\nVisual Studio Code (comúnmente abreviado como VS Code) es un editor de código fuente gratuito, desarrollado por Microsoft, que se ejecuta en Windows, macOS y Linux. VS Code combina la simplicidad de un editor ligero con funcionalidades avanzadas típicas de un entorno de desarrollo integrado (IDE), convirtiéndolo en una herramienta muy popular entre desarrolladores y programadores en todo el mundo.",
+    "text": "En la actualidad, el desarrollo web ocupa un lugar esencial en el mundo laboral, constituyendo una de las áreas con mayor demanda y crecimiento en el sector tecnológico. Las empresas de todos los tamaños y sectores dependen cada vez más de plataformas digitales para conectar con sus clientes, ofrecer servicios y potenciar su competitividad. Esta realidad convierte a los desarrolladores web en profesionales altamente valorados y solicitados en el mercado global.\nEl propósito de esta obra es dotar a los estudiantes de tercero de bachillerato de la Unidad Educativa “Carlos Crespi II” con una formación sólida, que les permita certificar sus competencias como desarrolladores frontend y así acceder a las oportunidades laborales que ofrece el mundo digital moderno. A través de una ruta de aprendizaje progresiva y práctica, este libro busca transformar a jóvenes sin conocimientos previos en profesionales capaces, motivados y preparados para los retos actuales.\nExisten diversos tipos de programadores web, y conocer sus habilidades y roles permitirá a los estudiantes comprender las variadas oportunidades y caminos en esta carrera. Los desarrolladores frontend se encargan de la interfaz y experiencia del usuario, diseñando y creando sitios web atractivos y funcionales con habilidades en diseño visual, usabilidad, y comunicación efectiva. Los desarrolladores backend trabajan en la lógica, servidores y bases de datos que sustentan las aplicaciones web, demandando habilidades analíticas, pensamiento estructurado y dominio de la gestión de datos. Finalmente, los desarrolladores full stack combinan ambos roles, siendo versátiles y adaptativos, con capacidad para integrar y gestionar tanto la parte visible como la funcional del software, lo que requiere una gran disciplina, aprendizaje constante y capacidad de resolución de problemas complejos.\nEl desarrollo web ha evolucionado considerablemente desde sus inicios, pasando de simples páginas estáticas a aplicaciones web interactivas y dinámicas que impulsan la economía digital. Esta transformación crea nuevas exigencias y oportunidades laborales a nivel mundial, con una tendencia clara hacia la profesionalización, especialización y uso de metodologías ágiles en entornos colaborativos. El futuro del desarrollo web se orienta hacia la inclusión de tecnologías emergentes, la inteligencia artificial y una interacción aún más personalizada y eficiente entre usuario y plataforma.\nEste libro servirá como guía para que los estudiantes no solo aprendan los fundamentos teóricos y prácticos, sino que también desarrollen habilidades esenciales como el pensamiento crítico, la creatividad, el trabajo en equipo y la autonomía. Al concluir esta ruta educativa, los lectores estarán capacitados para certificarse y convertirse en desarrolladores frontend competentes, abriendo así la puerta a un mercado laboral dinámico y en constante crecimiento.\nConfiamos en que esta obra será una herramienta transformadora en la trayectoria académica y profesional de los estudiantes, contribuyendo a la formación de los futuros profesionales del sector tecnológico del país, con la motivación y preparación necesaria para destacar en el mundo laboral actual y futuro.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual de Instalación de Visual Studio Code</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introducción</span>"
     ]
   },
   {
-    "objectID": "1_Visual_Studio_Code.html#qué-es-visual-studio-code",
-    "href": "1_Visual_Studio_Code.html#qué-es-visual-studio-code",
-    "title": "1  Manual de Instalación de Visual Studio Code",
-    "section": "1.2 ¿Qué es Visual Studio Code?",
-    "text": "1.2 ¿Qué es Visual Studio Code?\nVisual Studio Code es un editor de texto especializado en la edición, escritura y gestión de código fuente para programas y aplicaciones informáticas. A diferencia de un editor de texto común, VS Code cuenta con múltiples características que facilitan el desarrollo de software, tales como:\n\nResaltado de sintaxis para una amplia variedad de lenguajes de programación.\nAutocompletado inteligente (IntelliSense) que sugiere automáticamente funciones, variables y estructuras de código.\nDepuración integrada que permite ejecutar el código paso a paso para encontrar y corregir errores.\nControl de versiones integrado con Git, facilitando la colaboración y gestión de proyectos en equipo.\nTerminal integrada para ejecutar comandos directamente desde el editor.\nExtensiones y personalización para adaptar el editor a diferentes lenguajes, frameworks y herramientas de desarrollo.",
+    "objectID": "1_Visual_Studio_Code.html",
+    "href": "1_Visual_Studio_Code.html",
+    "title": "2  Manual Detallado de Instalación y Uso de Visual Studio Code",
+    "section": "",
+    "text": "2.1 ¿Qué es Visual Studio Code?\nVisual Studio Code (VS Code) es un editor de código fuente gratuito desarrollado por Microsoft, disponible para Windows, macOS y Linux. Se caracteriza por ser liviano, multiplataforma y altamente extensible. VS Code combina funciones avanzadas de un entorno de desarrollo integrado (IDE) con la sencillez de un editor de texto moderno, permitiendo trabajar con múltiples lenguajes de programación y tecnologías en un entorno centralizado[web:29][web:33][web:34].",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual de Instalación de Visual Studio Code</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Manual Detallado de Instalación y Uso de Visual Studio Code</span>"
     ]
   },
   {
     "objectID": "1_Visual_Studio_Code.html#para-qué-sirve-visual-studio-code",
     "href": "1_Visual_Studio_Code.html#para-qué-sirve-visual-studio-code",
-    "title": "1  Manual de Instalación de Visual Studio Code",
-    "section": "1.3 ¿Para qué sirve Visual Studio Code?",
-    "text": "1.3 ¿Para qué sirve Visual Studio Code?\nVS Code es una plataforma fundamental para los desarrolladores, ya que permite:\n\nEscribir y editar código de manera eficiente y organizada.\nNavegar fácilmente en proyectos complejos gracias a su explorador de archivos y funciones de búsqueda avanzadas.\nProbar y depurar aplicaciones directamente desde el editor.\nIntegrar herramientas de control de versiones para mantener un historial y colaborar en proyectos.\nPersonalizar el entorno de desarrollo mediante miles de extensiones disponibles en su Marketplace, que permiten agregar soporte para nuevos lenguajes, herramientas de análisis, temáticas visuales, entre otros.",
+    "title": "2  Manual Detallado de Instalación y Uso de Visual Studio Code",
+    "section": "2.2 ¿Para qué sirve Visual Studio Code?",
+    "text": "2.2 ¿Para qué sirve Visual Studio Code?\nVS Code se utiliza principalmente para:\n\nEscribir código fuente: Proporciona herramientas como resaltado de sintaxis, autocompletado inteligente y depuración.\nGestionar proyectos de software: Ofrece integración con Git y otros sistemas de control de versiones.\nExtender funcionalidades: Permite instalar extensiones para soportar frameworks, nuevos lenguajes, temas visuales y herramientas especializadas.\nEjecutar comandos: Cuenta con terminal integrada y paneles interactivos para configurar y automatizar tareas del proyecto[web:30][web:31][web:35].",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual de Instalación de Visual Studio Code</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Manual Detallado de Instalación y Uso de Visual Studio Code</span>"
     ]
   },
   {
-    "objectID": "1_Visual_Studio_Code.html#importancia-de-visual-studio-code-para-desarrolladores-y-programadores",
-    "href": "1_Visual_Studio_Code.html#importancia-de-visual-studio-code-para-desarrolladores-y-programadores",
-    "title": "1  Manual de Instalación de Visual Studio Code",
-    "section": "1.4 Importancia de Visual Studio Code para desarrolladores y programadores",
-    "text": "1.4 Importancia de Visual Studio Code para desarrolladores y programadores\nLa popularidad de Visual Studio Code se debe a su combinación de ligereza, flexibilidad y potencia. Sus características lo convierten en una herramienta fundamental en el mundo del desarrollo por las siguientes razones:\n\nMultiplataforma: Funciona igual en diferentes sistemas operativos, permitiendo a desarrolladores usar la misma herramienta sin importar la plataforma.\nPersonalización: Se puede ajustar a cualquier flujo de trabajo mediante extensiones, desde desarrollo web hasta ciencia de datos o programación en múltiples lenguajes.\nProductividad: Dispone de funciones que aceleran la escritura de código y reducen errores, como el autocompletado inteligente y la depuración integrada.\nColaboración: La integración nativa con Git y otros sistemas de control de versiones facilita el trabajo en equipo y el seguimiento de cambios.\nComunidad activa: Cuenta con una gran comunidad que desarrolla constantemente extensiones, comparte recursos y apoya a usuarios nuevos y avanzados.",
+    "objectID": "1_Visual_Studio_Code.html#importancia-de-vs-code-en-la-programación-actual",
+    "href": "1_Visual_Studio_Code.html#importancia-de-vs-code-en-la-programación-actual",
+    "title": "2  Manual Detallado de Instalación y Uso de Visual Studio Code",
+    "section": "2.3 Importancia de VS Code en la programación actual",
+    "text": "2.3 Importancia de VS Code en la programación actual\nVisual Studio Code es uno de los editores más usados por desarrolladores en todo el mundo debido a su combinación de eficiencia, flexibilidad y una comunidad activa. Sus ventajas incluyen:\n\nMultiplataforma: Se ejecuta en sistemas operativos populares, permitiendo equipos diversos trabajar con la misma herramienta.\nExtensibilidad: Dispone de miles de extensiones y plugins desarrollados por la comunidad y por empresas líderes.\nProductividad: Optimiza la escritura y gestión del código, reduce errores y facilita el trabajo colaborativo.\nAdopción profesional y académica: Es un estándar en la industria, utilizado tanto por grandes compañías como por instituciones educativas para enseñar programación y desarrollo de software[web:29][web:34][web:35].",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual de Instalación de Visual Studio Code</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Manual Detallado de Instalación y Uso de Visual Studio Code</span>"
     ]
   },
   {
-    "objectID": "1_Visual_Studio_Code.html#requisitos-previos",
-    "href": "1_Visual_Studio_Code.html#requisitos-previos",
-    "title": "1  Manual de Instalación de Visual Studio Code",
-    "section": "1.5 Requisitos previos",
-    "text": "1.5 Requisitos previos\n\nConexión a internet estable.\nSistema operativo compatible:\n\nWindows 7 o superior (64 bits o 32 bits)\nmacOS 10.11 o superior\nDistribuciones populares de Linux (Ubuntu, Debian, Fedora, Red Hat, etc.)",
+    "objectID": "1_Visual_Studio_Code.html#manual-de-instalación-de-visual-studio-code",
+    "href": "1_Visual_Studio_Code.html#manual-de-instalación-de-visual-studio-code",
+    "title": "2  Manual Detallado de Instalación y Uso de Visual Studio Code",
+    "section": "2.4 Manual de Instalación de Visual Studio Code",
+    "text": "2.4 Manual de Instalación de Visual Studio Code\n\n2.4.1 1. Requisitos previos\n\nConexión a internet\nSistema operativo compatible: Windows 7 o superior, macOS 10.11 o superior, o distribuciones comunes de Linux\n\n\n\n\n2.4.2 2. Descargar Visual Studio Code\n\nAbre tu navegador de preferencia.\nAccede a la página oficial: https://code.visualstudio.com/\nHaz clic en “Download” y selecciona el instalador compatible para tu sistema operativo (Windows, macOS, o Linux).\n\n\n\n\n2.4.3 3. Instalación en Windows\n\nEjecuta el archivo descargado (VSCodeUserSetup-x64-*.exe).\nAcepta los términos y condiciones.\nSelecciona la carpeta de destino (puedes dejar la predeterminada).\nActiva opciones recomendadas como “Agregar al menú contextual” (para abrir carpetas directamente desde el explorador).\nHaz clic en “Instalar” y espera a que finalice.\nEjecuta VS Code seleccionando “Finalizar” y marcando “Abrir Visual Studio Code”.\n\n\n\n\n2.4.4 4. Instalación en macOS\n\nDescomprime el archivo .zip descargado.\nMueve el icono de Visual Studio Code a la carpeta de “Aplicaciones”.\nAbre la aplicación desde “Launchpad” o “Aplicaciones”.\n(Opcional) Abre la paleta de comandos (Cmd + Shift + P) y escribe:\nShell Command: Install 'code' command in PATH\npara poder ejecutar VS Code desde la Terminal con el comando code.\n\n\n\n\n2.4.5 5. Instalación en Linux\n\n2.4.5.1 Ubuntu / Debian\n\nDescarga e instala el paquete .deb desde la web oficial.\nAlternativamente, desde Terminal: sudo apt update sudo apt install code\n\ntext Si instalas desde el paquete descargado: sudo dpkg -i nombre_paquete.deb\ntext Reemplaza nombre_paquete.deb con el archivo descargado.\n\n\n2.4.5.2 Fedora / Red Hat / CentOS\n\nDescarga e instala el paquete .rpm desde la web oficial.\nInstala ejecutando: sudo dnf install code\n\ntext\n\n\n\n\n2.4.6 6. Verificación de instalación\n\nAbre Visual Studio Code.\nComprueba que la ventana principal aparece correctamente.\nVerifica la versión ejecutando en la terminal integrada: code –version\n\ntext",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual de Instalación de Visual Studio Code</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Manual Detallado de Instalación y Uso de Visual Studio Code</span>"
     ]
   },
   {
-    "objectID": "1_Visual_Studio_Code.html#paso-1-descargar-visual-studio-code",
-    "href": "1_Visual_Studio_Code.html#paso-1-descargar-visual-studio-code",
-    "title": "1  Manual de Instalación de Visual Studio Code",
-    "section": "1.6 Paso 1: Descargar Visual Studio Code",
-    "text": "1.6 Paso 1: Descargar Visual Studio Code\n\nAbrir el navegador web preferido.\nIr al sitio oficial de Visual Studio Code:\nhttps://code.visualstudio.com/\nEn la página de inicio, el sitio reconoce automáticamente el sistema operativo. Dar clic en el botón Download para iniciar la descarga del instalador.",
+    "objectID": "1_Visual_Studio_Code.html#referencias",
+    "href": "1_Visual_Studio_Code.html#referencias",
+    "title": "2  Manual Detallado de Instalación y Uso de Visual Studio Code",
+    "section": "2.5 Referencias",
+    "text": "2.5 Referencias\n\nArsys. “¿Qué es Visual Studio Code y cuáles son sus ventajas?”, 2024[web:29].\nWikipedia. “Visual Studio Code - Wikipedia, la enciclopedia libre”, 2018[web:34].\nebiseducation.com. “Visual Studio Code: Qué es, Cómo funciona y Ventajas”, 2024[web:35].",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual de Instalación de Visual Studio Code</span>"
-    ]
-  },
-  {
-    "objectID": "1_Visual_Studio_Code.html#paso-2-instalación-en-windows",
-    "href": "1_Visual_Studio_Code.html#paso-2-instalación-en-windows",
-    "title": "1  Manual de Instalación de Visual Studio Code",
-    "section": "1.7 Paso 2: Instalación en Windows",
-    "text": "1.7 Paso 2: Instalación en Windows\n\nEjecutar el archivo .exe descargado (por ejemplo, VSCodeUserSetup-x64-1.x.x.exe).\nEn la ventana del instalador, aceptar el acuerdo de licencia y hacer clic en Next.\nElegir la carpeta de destino o dejar la predeterminada, luego clicar en Next.\nSeleccionar tareas adicionales:\n\nCrear acceso directo en el escritorio (opcional).\nAñadir “Abrir con Code” al menú contextual del explorador (recomendado para accesos rápidos).\n\nClic en Next y después en Install para comenzar la instalación.\nUna vez finalizada, seleccionar Launch Visual Studio Code para abrir el editor y clic en Finish.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual de Instalación de Visual Studio Code</span>"
-    ]
-  },
-  {
-    "objectID": "1_Visual_Studio_Code.html#paso-3-instalación-en-macos",
-    "href": "1_Visual_Studio_Code.html#paso-3-instalación-en-macos",
-    "title": "1  Manual de Instalación de Visual Studio Code",
-    "section": "1.8 Paso 3: Instalación en macOS",
-    "text": "1.8 Paso 3: Instalación en macOS\n\nAbrir el archivo .zip descargado, lo que descomprime Visual Studio Code.\nMover la aplicación Visual Studio Code a la carpeta Aplicaciones.\nAbrir Visual Studio Code desde la carpeta Aplicaciones.\nPara poder abrir VS Code desde la terminal, ejecutar en VS Code la paleta de comandos (Cmd + Shift + P) y escribir Shell Command: Install 'code' command in PATH, luego seleccionarlo.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual de Instalación de Visual Studio Code</span>"
-    ]
-  },
-  {
-    "objectID": "1_Visual_Studio_Code.html#paso-4-instalación-en-linux",
-    "href": "1_Visual_Studio_Code.html#paso-4-instalación-en-linux",
-    "title": "1  Manual de Instalación de Visual Studio Code",
-    "section": "1.9 Paso 4: Instalación en Linux",
-    "text": "1.9 Paso 4: Instalación en Linux\n\n1.9.1 Para distribuciones basadas en Debian y Ubuntu:\n\nAbrir la terminal.\nDescargar el paquete .deb: wget -qO- https://update.code.visualstudio.com/latest/linux-deb-x64/stable | sudo dpkg -i -\n\ntext 3. O usar los comandos: sudo apt update sudo apt install software-properties-common apt-transport-https wget wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add - sudo add-apt-repository “deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main” sudo apt update sudo apt install code\ntext 4. Ejecutar VS Code con el comando: code\ntext\n\n\n1.9.2 Para distribuciones basadas en Fedora, Red Hat y CentOS:\n\nDescargar e instalar el paquete .rpm desde la página oficial.\nUsar comandos para agregar repositorios con dnf o yum.\nInstalar Visual Studio Code con: sudo dnf install code\n\ntext",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual de Instalación de Visual Studio Code</span>"
-    ]
-  },
-  {
-    "objectID": "1_Visual_Studio_Code.html#paso-5-verificación-de-instalación",
-    "href": "1_Visual_Studio_Code.html#paso-5-verificación-de-instalación",
-    "title": "1  Manual de Instalación de Visual Studio Code",
-    "section": "1.10 Paso 5: Verificación de instalación",
-    "text": "1.10 Paso 5: Verificación de instalación\n\nAbrir Visual Studio Code.\nVerificar que se abre la ventana principal del editor.\nComprobar la versión con el comando en terminal integrada: code –version\n\ntext",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual de Instalación de Visual Studio Code</span>"
-    ]
-  },
-  {
-    "objectID": "1_Visual_Studio_Code.html#recomendaciones-finales",
-    "href": "1_Visual_Studio_Code.html#recomendaciones-finales",
-    "title": "1  Manual de Instalación de Visual Studio Code",
-    "section": "1.11 Recomendaciones finales",
-    "text": "1.11 Recomendaciones finales\n\nInstalar extensiones necesarias desde el Marketplace dentro de VS Code para potenciar el flujo de trabajo.\nConfigurar ajustes según preferencias de usuario.\nMantener actualizado el editor para recibir mejoras y correcciones.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual de Instalación de Visual Studio Code</span>"
-    ]
-  },
-  {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "2  Introduction",
-    "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Manual Detallado de Instalación y Uso de Visual Studio Code</span>"
     ]
   },
   {
@@ -137,16 +77,6 @@
     "text": "In summary, this book has no content whatsoever.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
-    ]
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "References"
     ]
   }
 ]
