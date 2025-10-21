@@ -10,6 +10,7 @@ book:
     - index.qmd
     - 1_intro.qmd
     - 2_Visual_Studio_Code.qmd
+    - Guia_Git.qmd
     - summary.qmd
     - references.qmd
 
